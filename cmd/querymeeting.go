@@ -22,40 +22,41 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// For querying meetings 
+// querymeetingCmd represents the querymeeting command
 var querymeetingCmd = &cobra.Command{
 	Use:   "querymeeting",
-	Short: "query meetings with start and end time",
+	Short: "query meetings in a time interval",
 	Run: func(cmd *cobra.Command, args []string) {
 		errLog.Println("Query Meeting called")
-		startTime, _ := cmd.Flags().GetString("starttime")
-		endTime, _ := cmd.Flags().GetString("endtime")
-		// Time can not be empty
-		if startTime == "" || endTime == "" {
-			fmt.Println("Please input the start and end time of the interval")
+		tmp_s, _ := cmd.Flags().GetString("starttime")
+		tmp_e, _ := cmd.Flags().GetString("endtime")
+		if tmp_s == "" || tmp_e == "" {
+			fmt.Println("Please input start time and end time both")
 			return
 		}
-		// Make sure you have logged in
 		if user, flag := service.GetCurUser(); flag != true {
-			fmt.Println("You should log in first")
+			fmt.Println("Please log in firstly")
 		} else {
-			if meetingList, flag := service.QueryMeeting(user.Name, startTime, endTime); flag != true {
-				fmt.Println("Please input the correct data format like 2018-10-01/00:01")
+			if ml, flag := service.QueryMeeting(user.Name, tmp_s, tmp_e); flag != true {
+				fmt.Println("Wrong Date!please input the date as yyyy-mm-dd/hh:mm and make sure that starttiem <= endtime")
 			} else {
-				fmt.Println("Meetings are as follow:")
-				for _, oneMeeting := range meetingList {
-					fmt.Println("****************")
-					fmt.Println("Title: ", oneMeeting.Title)
-					startTimeStr, _ := entity.DateToString(oneMeeting.StartDate)
-					fmt.Println("Start Time", startTimeStr)
-					endTimeStr, _ := entity.DateToString(oneMeeting.EndDate)
-					fmt.Println("End Time", endTimeStr)
+				for _, m := range ml {
+					fmt.Println("----------------")
+					fmt.Println("Title: ", m.Title)
+					ts, _ := entity.DateToString(m.StartDate)
+					fmt.Println("Start Time", ts)
+					te, _ := entity.DateToString(m.EndDate)
+					fmt.Println("End Time", te)
 					fmt.Printf("Participator(s): ")
-					for _, parts := range oneMeeting.Participators {
-						fmt.Printf(parts, " ")
+					for _, p := range m.Participators {
+						if p==m.Participators[0] {
+							fmt.Printf("%s", p)
+						}else{
+							fmt.Printf(", %s", p)
+						}
 					}
 					fmt.Printf("\n")
-					fmt.Println("****************")
+					fmt.Println("----------------")
 				}
 			}
 		}
