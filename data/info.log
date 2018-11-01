@@ -1,0 +1,178 @@
+INFO: 2018/10/31 09:51:01 log.go:57: Start up Info log
+INFO: 2018/10/31 09:51:17 log.go:57: Start up Info log
+INFO: 2018/10/31 09:51:17 register.go:29: Register called
+INFO: 2018/10/31 09:51:44 log.go:57: Start up Info log
+INFO: 2018/10/31 09:52:49 log.go:57: Start up Info log
+INFO: 2018/10/31 09:53:11 log.go:57: Start up Info log
+INFO: 2018/10/31 09:53:28 log.go:57: Start up Info log
+INFO: 2018/10/31 09:53:28 register.go:29: Register called
+INFO: 2018/10/31 09:53:38 log.go:57: Start up Info log
+INFO: 2018/10/31 09:53:55 log.go:57: Start up Info log
+INFO: 2018/10/31 09:53:55 login.go:29: Login called
+INFO: 2018/10/31 09:54:05 log.go:57: Start up Info log
+INFO: 2018/10/31 09:54:05 login.go:29: Login called
+INFO: 2018/10/31 09:54:31 log.go:57: Start up Info log
+INFO: 2018/10/31 09:54:31 login.go:29: Login called
+INFO: 2018/10/31 09:54:52 log.go:57: Start up Info log
+INFO: 2018/10/31 09:54:52 queryuser.go:29: Query User called
+INFO: 2018/10/31 09:56:10 log.go:57: Start up Info log
+INFO: 2018/10/31 10:41:40 log.go:57: Start up Info log
+INFO: 2018/10/31 10:41:40 login.go:29: Login called
+INFO: 2018/10/31 10:42:39 log.go:56: Start up Info log
+INFO: 2018/10/31 10:42:39 register.go:29: Register called
+INFO: 2018/10/31 10:42:56 log.go:56: Start up Info log
+INFO: 2018/10/31 10:42:56 login.go:29: Login called
+INFO: 2018/10/31 10:43:45 log.go:56: Start up Info log
+INFO: 2018/10/31 10:43:50 log.go:56: Start up Info log
+INFO: 2018/10/31 10:43:50 logout.go:29: Logout called
+INFO: 2018/10/31 10:44:04 log.go:56: Start up Info log
+INFO: 2018/10/31 10:44:04 login.go:29: Login called
+INFO: 2018/10/31 11:04:21 log.go:56: Start up Info log
+INFO: 2018/10/31 11:04:21 logout.go:29: Logout called
+INFO: 2018/10/31 16:44:13 log.go:56: Start up Info log
+INFO: 2018/10/31 16:44:25 log.go:56: Start up Info log
+INFO: 2018/10/31 16:44:42 log.go:56: Start up Info log
+INFO: 2018/10/31 16:44:42 login.go:29: Login called
+INFO: 2018/10/31 16:45:00 log.go:56: Start up Info log
+INFO: 2018/10/31 16:45:00 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 16:46:24 log.go:56: Start up Info log
+INFO: 2018/10/31 16:46:24 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 16:46:46 log.go:56: Start up Info log
+INFO: 2018/10/31 16:46:46 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:47:49 log.go:56: Start up Info log
+INFO: 2018/10/31 16:47:49 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:48:04 log.go:56: Start up Info log
+INFO: 2018/10/31 16:48:04 queryuser.go:29: Query User called
+INFO: 2018/10/31 16:48:25 log.go:56: Start up Info log
+INFO: 2018/10/31 16:48:25 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:48:49 log.go:56: Start up Info log
+INFO: 2018/10/31 16:48:49 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:48:59 log.go:56: Start up Info log
+INFO: 2018/10/31 16:48:59 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:49:30 log.go:56: Start up Info log
+INFO: 2018/10/31 16:49:30 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:49:37 log.go:56: Start up Info log
+INFO: 2018/10/31 16:49:37 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:51:34 log.go:56: Start up Info log
+INFO: 2018/10/31 16:51:34 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:52:18 log.go:56: Start up Info log
+INFO: 2018/10/31 16:52:18 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:53:02 log.go:56: Start up Info log
+INFO: 2018/10/31 16:53:02 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 16:53:18 log.go:56: Start up Info log
+INFO: 2018/10/31 16:53:18 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 16:53:41 log.go:56: Start up Info log
+INFO: 2018/10/31 16:53:41 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 16:57:17 log.go:56: Start up Info log
+INFO: 2018/10/31 16:57:17 deletemeeting.go:29: Delete Meeting called
+INFO: 2018/10/31 16:57:23 log.go:56: Start up Info log
+INFO: 2018/10/31 16:57:23 deletemeeting.go:29: Delete Meeting called
+INFO: 2018/10/31 16:57:37 log.go:56: Start up Info log
+INFO: 2018/10/31 16:57:37 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 16:57:41 log.go:56: Start up Info log
+INFO: 2018/10/31 16:57:41 deletemeeting.go:29: Delete Meeting called
+INFO: 2018/10/31 16:58:40 log.go:56: Start up Info log
+INFO: 2018/10/31 16:58:40 deletemeeting.go:29: Delete Meeting called
+INFO: 2018/10/31 16:58:44 log.go:56: Start up Info log
+INFO: 2018/10/31 16:58:44 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:03:54 log.go:56: Start up Info log
+INFO: 2018/10/31 17:03:54 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:04:14 log.go:56: Start up Info log
+INFO: 2018/10/31 17:04:14 logout.go:29: Logout called
+INFO: 2018/10/31 17:04:20 log.go:56: Start up Info log
+INFO: 2018/10/31 17:04:20 login.go:29: Login called
+INFO: 2018/10/31 17:04:37 log.go:56: Start up Info log
+INFO: 2018/10/31 17:04:37 login.go:29: Login called
+INFO: 2018/10/31 17:04:42 log.go:56: Start up Info log
+INFO: 2018/10/31 17:04:42 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:04:51 log.go:56: Start up Info log
+INFO: 2018/10/31 17:04:51 deletemeeting.go:29: Delete Meeting called
+INFO: 2018/10/31 17:04:55 log.go:56: Start up Info log
+INFO: 2018/10/31 17:04:55 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:07:45 log.go:56: Start up Info log
+INFO: 2018/10/31 17:07:45 logout.go:29: Logout called
+INFO: 2018/10/31 17:08:02 log.go:56: Start up Info log
+INFO: 2018/10/31 17:08:02 login.go:29: Login called
+INFO: 2018/10/31 17:08:06 log.go:56: Start up Info log
+INFO: 2018/10/31 17:08:06 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:08:55 log.go:56: Start up Info log
+INFO: 2018/10/31 17:08:55 removeparticipator.go:30: Remove Participator called
+INFO: 2018/10/31 17:09:07 log.go:56: Start up Info log
+INFO: 2018/10/31 17:09:07 removeparticipator.go:30: Remove Participator called
+INFO: 2018/10/31 17:09:19 log.go:56: Start up Info log
+INFO: 2018/10/31 17:09:19 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:09:54 log.go:56: Start up Info log
+INFO: 2018/10/31 17:09:54 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:10:14 log.go:56: Start up Info log
+INFO: 2018/10/31 17:10:14 deletemeeting.go:29: Delete Meeting called
+INFO: 2018/10/31 17:10:18 log.go:56: Start up Info log
+INFO: 2018/10/31 17:10:18 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:10:41 log.go:56: Start up Info log
+INFO: 2018/10/31 17:10:41 removeparticipator.go:30: Remove Participator called
+INFO: 2018/10/31 17:10:45 log.go:56: Start up Info log
+INFO: 2018/10/31 17:10:45 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:16:56 log.go:56: Start up Info log
+INFO: 2018/10/31 17:16:56 login.go:29: Login called
+INFO: 2018/10/31 17:17:59 log.go:56: Start up Info log
+INFO: 2018/10/31 17:17:59 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 17:19:08 log.go:56: Start up Info log
+INFO: 2018/10/31 17:19:08 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 17:19:40 log.go:56: Start up Info log
+INFO: 2018/10/31 17:19:40 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 17:20:16 log.go:56: Start up Info log
+INFO: 2018/10/31 17:20:16 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:20:33 log.go:56: Start up Info log
+INFO: 2018/10/31 17:20:33 deletemeeting.go:29: Delete Meeting called
+INFO: 2018/10/31 17:20:37 log.go:56: Start up Info log
+INFO: 2018/10/31 17:20:37 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:22:27 log.go:56: Start up Info log
+INFO: 2018/10/31 17:22:27 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:22:51 log.go:56: Start up Info log
+INFO: 2018/10/31 17:22:51 logout.go:29: Logout called
+INFO: 2018/10/31 17:23:08 log.go:56: Start up Info log
+INFO: 2018/10/31 17:23:08 login.go:29: Login called
+INFO: 2018/10/31 17:23:12 log.go:56: Start up Info log
+INFO: 2018/10/31 17:23:12 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:24:38 log.go:56: Start up Info log
+INFO: 2018/10/31 17:24:38 clearmeeting.go:29: Clear Meeting called
+INFO: 2018/10/31 17:24:47 log.go:56: Start up Info log
+INFO: 2018/10/31 17:24:47 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:25:59 log.go:56: Start up Info log
+INFO: 2018/10/31 17:25:59 clearmeeting.go:29: Clear Meeting called
+INFO: 2018/10/31 17:26:02 log.go:56: Start up Info log
+INFO: 2018/10/31 17:26:02 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:31:14 log.go:56: Start up Info log
+INFO: 2018/10/31 17:31:14 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 17:31:33 log.go:56: Start up Info log
+INFO: 2018/10/31 17:31:33 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 17:31:39 log.go:56: Start up Info log
+INFO: 2018/10/31 17:31:39 querymeeting.go:30: Query Meeting called
+INFO: 2018/10/31 17:32:13 log.go:56: Start up Info log
+INFO: 2018/10/31 17:32:13 clearmeeting.go:29: Clear Meeting called
+INFO: 2018/10/31 17:35:28 log.go:56: Start up Info log
+INFO: 2018/10/31 17:35:28 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 17:35:43 log.go:56: Start up Info log
+INFO: 2018/10/31 17:35:43 createmeeting.go:29: Create Meeting Called
+INFO: 2018/10/31 17:35:57 log.go:56: Start up Info log
+INFO: 2018/10/31 17:35:57 deletemeeting.go:29: Delete Meeting called
+INFO: 2018/10/31 17:36:04 log.go:56: Start up Info log
+INFO: 2018/10/31 17:36:04 querymeeting.go:30: Query Meeting called
+INFO: 2018/11/01 19:03:38 log.go:56: Start up Info log
+INFO: 2018/11/01 19:03:38 logout.go:29: Logout called
+INFO: 2018/11/01 19:03:52 log.go:56: Start up Info log
+INFO: 2018/11/01 19:03:52 login.go:29: Login called
+INFO: 2018/11/01 19:04:06 log.go:56: Start up Info log
+INFO: 2018/11/01 19:04:15 log.go:56: Start up Info log
+INFO: 2018/11/01 19:04:15 createmeeting.go:29: Create Meeting Called
+INFO: 2018/11/01 19:04:56 log.go:56: Start up Info log
+INFO: 2018/11/01 19:04:56 createmeeting.go:29: Create Meeting Called
+INFO: 2018/11/01 19:06:02 log.go:56: Start up Info log
+INFO: 2018/11/01 19:06:02 addparticipator.go:31: Add participator called
+INFO: 2018/11/01 19:06:18 log.go:56: Start up Info log
+INFO: 2018/11/01 19:06:18 addparticipator.go:31: Add participator called
+INFO: 2018/11/01 19:07:27 log.go:56: Start up Info log
+INFO: 2018/11/01 19:07:27 querymeeting.go:30: Query Meeting called
+INFO: 2018/11/01 19:08:08 log.go:56: Start up Info log
+INFO: 2018/11/01 19:08:08 clearmeeting.go:29: Clear Meeting called
+INFO: 2018/11/01 19:08:16 log.go:56: Start up Info log
+INFO: 2018/11/01 19:08:16 querymeeting.go:30: Query Meeting called
