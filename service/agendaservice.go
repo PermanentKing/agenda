@@ -245,7 +245,12 @@ func QuitMeeting(username string, title string) bool {
 	entity.DeleteMeeting(func(m *entity.Meeting) bool {
 		return len(m.GetParticipator()) == 0
 	})
-	return true
+	if err := entity.Sync(); err != nil {
+		errLog.Println("Quit Meeting: failed")
+		return true
+	} else {
+		return true
+	}
 }
 
 func ClearMeeting(username string) (int, bool) {
