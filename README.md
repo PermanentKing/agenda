@@ -90,13 +90,13 @@
 
 
 
-  [1]: iamge/1.png
+  [1]: image/1.png
   [2]: image/2.png
   [3]: image/3.png
   [4]: image/createmeet.png
-  [5]: image/addpersion.png
+  [5]: image/addperson.png
   [6]: image/querymeeting.png
-  [7]: image/deletepersion.png
+  [7]: image/deleteperson.png
   [8]: image/deletemeeting.png
   [9]: image/clear2meeting.png
   [10]: image/queryuser.png
