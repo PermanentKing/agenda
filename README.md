@@ -96,7 +96,7 @@
   [4]: image/createmeet.png
   [5]: image/addperson.png
   [6]: image/querymeeting.png
-  [7]: image/deleteperson.png
+  [7]: image/removepersion.png
   [8]: image/deletemeeting.png
   [9]: image/clear2meeting.png
   [10]: image/queryuser.png
